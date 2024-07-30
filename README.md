@@ -7,7 +7,7 @@
 
 # Features:
 
-  **Explore Our Programs**: Users can browse through a variety of fitness programs tailored to different needs and goals. Each program includes detailed information to help users make informed decisions.
+  **Explore Our Programs**: Users can browse through a variety of fitness programs tailored to different needs and goals. Each program includes detailed information to help users make informed decisions.<br>
   **Why Choose Us**: This section highlights the unique aspects and advantages of our gym, such as our state-of-the-art facilities, experienced trainers, and community-focused approach.
   **Membership Plans**: Detailed descriptions of our Basic, Premium, and Pro membership plans are provided to help potential members choose the option that best fits their needs and budget.
   **Testimonials**: Real feedback from our customers and coaches, showcasing their positive experiences and the results they have achieved with our gym.
