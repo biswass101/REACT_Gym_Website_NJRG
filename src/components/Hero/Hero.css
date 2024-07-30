@@ -2,6 +2,7 @@
 {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .left-h
@@ -227,6 +228,55 @@
     left: 0;
 }
 
+ @media screen and (max-width: 1160px)
+{
+    .hero-text
+    {
+        font-size: 2.7rem;
+    }
+    .right-h .btn
+    {
+        right: 2rem;
+    }
+    .hero-image
+    {
+        width: 16rem;
+        top: 17rem;
+        right: 4rem;
+    }
+    .figures
+    {
+        gap: 0.5rem;
+    }
+    .figures>div>span:nth-of-type(1)
+    {
+        font-size: 1rem;
+    }
+
+    .figures>div>span:nth-of-type(2)
+    {
+        font-size: 1rem;
+    }
+    .calories
+    {
+        top: 39rem;
+        width: 10rem;
+    }
+    .calories>:nth-child(2)
+    {
+        font-size: 0.9rem;
+    }
+    .calories > div >:nth-child(2)
+    {
+        font-size: 0.9rem;
+    }
+    .calories > img
+    {
+        width: 2rem;
+        height: 3rem;
+    }
+
+}
 
 @media screen and (max-width: 768px)
 {
@@ -264,6 +314,10 @@
     }
 
     .hero-btns
+    {
+        justify-content: center;
+    }
+    .figures
     {
         justify-content: center;
     }

@@ -93,7 +93,13 @@
 {
     width: 2.5rem;
 }
-
+@media screen and (max-width: 1160px)
+{
+    .reasons
+    {
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 768px) {
 
     .reasons

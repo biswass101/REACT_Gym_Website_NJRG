@@ -64,7 +64,13 @@
     background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
     cursor: pointer;
 }
-
+@media screen and (max-width: 1160px)
+{
+    .programs-header
+    {
+        gap: 2rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .programs-header {

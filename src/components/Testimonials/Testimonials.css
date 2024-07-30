@@ -86,7 +86,49 @@
     width: 1.5rem;
     cursor: pointer;
 }
+@media screen and (max-width: 1160px)
+{
+    .right-t>img
+{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 4rem;
+    top: 2rem;
+}
 
+.right-t>:nth-child(1)
+{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 5rem;
+    top: 0.9rem;
+}
+
+.right-t>:nth-child(2)
+{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    top: 4rem;
+    right: 3rem;
+    background: var(--planCard);
+}
+
+.arrows
+{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 6rem;
+    bottom: -1rem;
+}
+}
 @media screen and (max-width: 768px)
 {
     .testimonials
